@@ -79,7 +79,7 @@ h1, h2, h3, p { margin-top: 0; }
 .hero-rule { width: min(var(--content-width), calc(100% - var(--page-gutter) * 2)); height: 1px; margin: 1.2rem auto 0; background: rgba(255,255,255,.16); }
 .hero-footnote { display: flex; justify-content: space-between; gap: 1rem; padding-top: 1rem; color: rgba(255,255,255,.53); font-size: .68rem; }
 
-.practice { background: var(--paper); }
+.practice { background: var(--white); }
 .section-heading { display: grid; grid-template-columns: 1fr; gap: 1.1rem; margin-bottom: 2.4rem; }
 .section-heading h2, .company h2, .contact h2 { margin: 0; font-size: clamp(2.5rem, 9vw, 4.35rem); font-weight: 700; letter-spacing: -.055em; line-height: 1.04; }
 .section-intro { max-width: 27rem; margin: 0 0 .25rem; color: var(--muted); font-size: 1.02rem; line-height: 1.75; }
