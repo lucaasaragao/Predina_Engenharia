@@ -11,8 +11,8 @@ Landing page estática para apresentar a empresa, suas frentes de atuação e os
 
 ## Execução
 
-Abra `index.html` em um navegador. O projeto não usa backend, dependências ou fontes remotas. Os botões de orçamento iniciam uma ligação para o telefone informado no portfólio.
+Abra `index.html` em um navegador. O projeto não usa backend, dependências ou fontes remotas. Os botões “Falar agora” abrem uma conversa no WhatsApp com uma mensagem inicial pronta. O telefone também permanece disponível como alternativa de ligação. A página inclui animações sutis, desativadas quando a preferência de movimento reduzido está ativa. O rodapé reúne os dados de contato fornecidos.
 
 ## Conteúdo que ainda depende de confirmação
 
-A página apresenta a empresa e os serviços listados no portfólio. Não há biografia profissional do engenheiro nem estudos de caso documentados; esses conteúdos não foram inventados nem simulados. Antes de acrescentá-los, confirmar também se o telefone recebe WhatsApp, o endereço completo, o domínio de publicação e a autorização para exibir nomes e marcas de clientes.
+A página apresenta a empresa e os serviços listados no portfólio. Não há biografia profissional do engenheiro nem estudos de caso documentados; esses conteúdos não foram inventados nem simulados. Antes de acrescentá-los, confirmar o endereço completo, o domínio de publicação e a autorização para exibir nomes e marcas de clientes.
