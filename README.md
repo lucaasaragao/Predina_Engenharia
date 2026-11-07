@@ -15,4 +15,4 @@ Abra `index.html` em um navegador. O projeto não usa backend, dependências ou 
 
 ## Conteúdo que ainda depende de confirmação
 
-A página apresenta a empresa e os serviços listados no portfólio. Não há biografia profissional do engenheiro nem estudos de caso documentados; esses conteúdos não foram inventados nem simulados. Antes de acrescentá-los, confirmar o endereço completo, o domínio de publicação e a autorização para exibir nomes e marcas de clientes.
+A página apresenta a empresa e os serviços listados no portfólio. Não há biografia profissional do engenheiro nem estudos de caso documentados; esses conteúdos não foram inventados nem simulados. A seção de clientes usa os nomes apresentados no portfólio. Antes da publicação, confirmar o endereço completo e o domínio do site.
