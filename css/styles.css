@@ -93,14 +93,14 @@ h1, h2, h3, p { margin-top: 0; }
 .service-tags li { padding: .45rem .65rem; border: 1px solid #cbd8d1; color: #30483e; background: rgba(255,255,255,.58); font-size: .8rem; line-height: 1.3; }
 .practice-note { margin: 1.1rem 0 0; color: var(--muted); font-size: .82rem; }
 
-.trust { color: var(--white); background: var(--green-950); }
+.trust { color: var(--ink); background: var(--white); }
 .trust-heading { max-width: 42rem; margin: 0 auto 2.5rem; text-align: center; }
-.trust-heading .eyebrow { justify-content: center; }
+.trust-heading .eyebrow { justify-content: center; color: var(--green-800); }
 .trust-heading h2 { margin: 0 0 .8rem; font-size: clamp(2.6rem, 9vw, 4.2rem); font-weight: 720; letter-spacing: -.055em; line-height: 1; }
-.trust-heading > p:last-child { margin: 0; color: rgba(255,255,255,.68); }
+.trust-heading > p:last-child { margin: 0; color: var(--muted); }
 .client-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem; margin: 0; padding: 0; list-style: none; }
-.client-grid li { min-height: 5rem; display: grid; place-items: center; padding: .8rem; border: 1px solid rgba(129,232,193,.18); background: rgba(255,255,255,.045); text-align: center; }
-.client-wordmark { color: rgba(255,255,255,.9); font-size: clamp(.8rem, 3vw, 1.15rem); font-weight: 650; letter-spacing: -.025em; line-height: 1.15; }
+.client-grid li { min-height: 5rem; display: grid; place-items: center; padding: .8rem; border: 1px solid var(--line); background: var(--paper); text-align: center; }
+.client-wordmark { color: var(--green-900); font-size: clamp(.8rem, 3vw, 1.15rem); font-weight: 650; letter-spacing: -.025em; line-height: 1.15; }
 .client-wordmark--wide { font-size: clamp(.68rem, 2.5vw, 1rem); }
 .client-wordmark--bold { font-size: clamp(.95rem, 3.5vw, 1.5rem); font-weight: 800; letter-spacing: .015em; }
 
