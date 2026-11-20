@@ -63,7 +63,7 @@ h1, h2, h3, p { margin-top: 0; }
 .hero-description { max-width: 35rem; margin-bottom: 2rem; color: rgba(255,255,255,.77); font-size: clamp(1.05rem, 1.5vw, 1.18rem); line-height: 1.7; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.1rem 1.4rem; }
 .text-link { display: inline-flex; align-items: center; gap: .55rem; font-size: .94rem; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: .3em; }
-.text-link span { color: var(--green-500); font-size: 1.2rem; }
+.text-link-icon { display: block; flex: none; color: var(--green-500); }
 .text-link--light { color: var(--white); }
 .text-link--light:hover { color: var(--green-300); }
 .hero-graphic { position: relative; min-height: 19rem; display: grid; place-items: center; margin: -.5rem 0 1rem; }
