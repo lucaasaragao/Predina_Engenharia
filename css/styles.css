@@ -110,7 +110,6 @@ h1, h2, h3, p { margin-top: 0; }
 .client-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem; margin: 0; padding: 0; list-style: none; }
 .client-grid li { min-width: 0; min-height: clamp(6rem, 12vw, 8rem); display: grid; place-items: center; padding: clamp(.65rem, 1.5vw, 1rem); border: 1px solid var(--line); border-radius: .5rem; background: var(--white); text-align: center; }
 .client-grid img { display: block; width: 100%; max-width: 10.75rem; height: clamp(3.5rem, 7vw, 5rem); object-fit: contain; }
-.client-name { max-width: 15ch; color: var(--green-900); font-size: clamp(.8rem, 2.2vw, 1rem); font-weight: 700; line-height: 1.3; text-wrap: balance; }
 
 .company { overflow: hidden; color: var(--white); background: var(--green-950); }
 .company-layout { display: grid; grid-template-columns: 1fr; gap: 2.5rem; }
@@ -127,12 +126,15 @@ h1, h2, h3, p { margin-top: 0; }
 
 .contact { color: var(--white); background: var(--green-950); }
 .contact-layout { display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: end; }
+.contact-details { display: grid; gap: .65rem; }
+.contact-details h3 { margin: 0 0 .25rem; font-size: 1.1rem; }
+.contact-channel { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: .75rem; padding: .75rem 1rem; border: 1px solid rgba(129,232,193,.45); border-radius: .5rem; color: var(--white); text-decoration: none; transition: background-color .18s ease, border-color .18s ease; }
+.contact-channel:hover, .contact-channel:focus-visible { border-color: var(--green-300); background: rgba(255,255,255,.08); }
+.contact-channel .brand-icon { margin-top: .15rem; color: var(--green-300); }
+.contact-channel-detail { display: block; margin-top: .15rem; color: rgba(255,255,255,.75); font-size: .9rem; overflow-wrap: anywhere; }
 .contact .eyebrow { color: var(--green-300); }
 .contact h2 { margin-bottom: 1.25rem; }
 .contact .section-intro { max-width: 32rem; color: rgba(255,255,255,.72); }
-.contact-details { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; gap: .8rem; padding-left: 0; border-left: 0; }
-.contact-social { display: inline-flex; justify-content: flex-start; align-items: center; gap: .65rem; width: auto; min-height: 3.25rem; padding: .72rem 1rem; border: 1px solid rgba(129,232,193,.45); border-radius: 3px; color: var(--white); font-weight: 650; text-decoration: none; transition: background-color .18s ease, border-color .18s ease; }
-.contact-social span { color: var(--white); font-weight: 650; }
 
 .site-footer { color: var(--muted); background: var(--white); border-top: 1px solid var(--line); }
 .footer-inner { min-height: 8rem; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1rem; padding-block: 1.8rem; }
@@ -177,7 +179,6 @@ h1, h2, h3, p { margin-top: 0; }
   .values-panel { padding: clamp(1.5rem, 4vw, 3rem); }
   .values-list div { grid-template-columns: minmax(9rem, .8fr) 1.2fr; gap: 1.4rem; }
   .contact-layout { grid-template-columns: minmax(0, 1.2fr) minmax(18rem, .8fr); gap: 4rem; }
-  .contact-details { padding-left: 0; border-left: 0; }
   .footer-inner { grid-template-columns: 11rem 1fr auto; gap: 1.5rem 2rem; }
   .brand--footer { width: 9.5rem; }
   .footer-inner p { grid-column: auto; grid-row: auto; }
@@ -191,10 +192,6 @@ h1, h2, h3, p { margin-top: 0; }
 .button--whatsapp:hover { color: var(--white); background: #0b6b39; transform: translateY(-1px); }
 
 
-.contact-details > .button { margin-top: 0; }
-.contact-social { justify-content: flex-start; align-items: center; gap: .75rem; transition: color .18s ease; }
-.contact-social:hover { color: var(--white); border-color: var(--green-300); background: rgba(255,255,255,.08); }
-.contact-social .brand-icon { color: var(--green-300); }
 
 .technical-diagram { animation: diagram-drift 18s ease-in-out infinite alternate; }
 @keyframes diagram-drift {
